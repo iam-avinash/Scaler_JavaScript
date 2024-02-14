@@ -1,0 +1,174 @@
+:root {
+    --bgColor: #EEF0E5;
+    --darkBgColor: #163020;
+    --iconColor:#304D30
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbox-main{
+    background-color: var(--darkBgColor);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+
+}
+.toolBox-cont{
+    height: 4rem;
+    width: 20rem;
+    background-color:var(--bgColor);
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.colour{
+
+}
+.red{
+
+    background-color: #750E21;
+    height: 1.5rem;
+    width: 3.5rem;
+
+}
+.blue{
+
+    background-color: #213555;
+    height: 1.5rem;
+    width: 3.5rem;
+
+}
+.green{
+
+    background-color: #163020;
+    height: 1.5rem;
+    width: 3.5rem;
+
+}
+.pink{
+
+    background-color: #E9D5DA;
+    height: 1.5rem;
+    width: 3.5rem;
+
+}
+.add-delete{
+background-color: azure;
+height: 3rem;
+width: 10rem;
+margin-left: 5rem;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.add-btn{
+    font-size: 1.75rem;
+
+}
+.remove-btn{
+    font-size: 1.75rem;
+}
+
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin:2rem 1rem;
+    /* background-color: beige; */
+    
+    
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: turquoise;
+   
+    position: relative;
+}
+
+.ticket-id{
+background-color: rgb(189, 13, 13);
+font-weight: 700;
+
+font-size: 0.75rem;
+
+
+
+}
+
+.ticket-area{
+    padding: 5px;
+    height: calc(10rem - 1rem - 1.5rem);
+    font-size: 1.25rem;
+}
+
+.ticket-color{
+    background-color: #E9D5DA;
+height: 1rem;
+
+}
+.modal{
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    /* background-color: bisque; */
+    border: 2px solid black;
+    
+    position: fixed;
+    left: 25vw;
+    top: 25vh;
+
+    
+
+
+}
+.text-area{
+height: 100%;
+width: 75%;
+outline: none;
+border: none;
+resize: none;
+background-color: whitesmoke;
+font-size: x-large;
+padding: 2rem;
+border-right: 2px solid black;
+
+
+}
+
+.task-color{
+height: 100%;
+width: 25%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.task-color1{
+    height: 3rem;
+    width: 5rem;
+    
+    
+}
+
+.active,.task-color1:hover {
+    border: 2px solid yellow;
+}
+
+.lock-unlock-btn{
+   position: absolute; 
+   bottom: 5px;
+   right: 5px;
+
+}
+

@@ -1,0 +1,22 @@
+.container {
+  padding: 1rem 3rem;
+}
+
+.comment-container {
+  border-left: 1.5px solid black;
+  padding-left: 1rem;
+  margin-left: 2rem;
+}
+
+.reply {
+  color: aqua;
+  font-weight: 600;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+.reply:hover {
+  cursor: pointer;
+}
+.comment-reply-container {
+  margin-left: 5rem;
+}
